@@ -3,16 +3,16 @@
 public class FizzBuzz {
     public static void main(String[] args) {
         for (int i = 0; i < 100; i++) {
-            FizzBuzz(i);
+            FizzerBuzzer(i);
         }
     }
-    public static void FizzBuzz(int i){
-        if(i % 3 == 0 && i % 5 == 0){
-            System.out.println("FizzBuzz");
-        }else if (i % 3 == 0) {
-            System.out.println("Fizz");
-        }else if (i % 5 == 0){
-            System.out.println("Buzz");
+    public static void FizzerBuzzer(int i){
+        if(i % 4 == 0 && i % 7 == 0){
+            System.out.println("FizzerBuzzer");
+        }else if (i % 4 == 0) {
+            System.out.println("Fizzer");
+        }else if (i % 7 == 0){
+            System.out.println("Buzzer");
         }else{
             System.out.println(i);
         }
